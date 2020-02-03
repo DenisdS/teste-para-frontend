@@ -1,10 +1,21 @@
 /* simple reset */
 html, body{width: 100%;}
-*{margin: 0 auto; padding: 0; text-decoration: none; list-style: none}
+*{margin: 0 auto; padding: 0; text-decoration: none; list-style: none; 
+    font-family: Helvetica, Arial, sans-serif}
 /* end reset */
 
 :root{
     --main-color: #3498DB;
     --main-color-title: #E74C3C;
     --color-secoundary-title: #2980B9;
+}
+
+header{
+    background: var(--main-color);
+}
+
+footer{
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(to top, #2C3E50 0, #2C3E50 65%, var(--main-color) 35%);
 }
