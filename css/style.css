@@ -1,0 +1,10 @@
+/* simple reset */
+html, body{width: 100%;}
+*{margin: 0 auto; padding: 0; text-decoration: none; list-style: none}
+/* end reset */
+
+:root{
+    --main-color: #3498DB;
+    --main-color-title: #E74C3C;
+    --color-secoundary-title: #2980B9;
+}
