@@ -16,13 +16,12 @@
             <div class="container-nav"></div>   
 
             <h1>
-                <img srcset="slices//mobile/logo-mobile.jpg 208w,
-                    slices/tablet/logo-table.png 199w,
-                    slices/desktop/logo-desktop.png 238w"
-                    sizes="(max-width: 800px) 208px,
-                    (max-width: 1024px) 199px,
-                    238px"
-                    src="slices/desktop/logo-desktop.png" alt="Folha">
+                <picture>
+                    <source srcset="slices/mobile/logo-mobile.png" media="(max-width: 800px)">
+                    <source srcset="slices/tablet/logo-tablet.png" media="(max-width: 1024px)">
+                    <source srcset="slices/desktop/logo-desktop.png" media="(min-width: 1025px)">
+                    <img srcset="slices/desktop/logo-desktop.png" alt="Folha">
+                </picture>
             </h1>
             
             <p>O site de teste para <strong>novos webs</strong></p>
